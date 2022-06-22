@@ -1,11 +1,11 @@
-import { useFirestore } from '../../hooks/useFirestore'
+import { useFirestore } from '../../hooks/useFirestore';
+import React from 'react';
 
 //styles
 import styles from './Home.module.css'
 
 export default function ItemList({ items }) {
-    const { deleteDocument, response } = useFirestore('items')
-    console.log(response)
+    const { deleteDocument } = useFirestore('items')
     
     return (
         <ul className={styles.items}>

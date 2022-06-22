@@ -1,5 +1,6 @@
 import { createContext, useEffect, useReducer } from 'react'
 import { projectAuth } from '../firebase/config'
+import React from 'react';
 
 export const AuthContext = createContext()
 

@@ -1,5 +1,6 @@
 import {useEffect, useState } from 'react'
 import { useFirestore } from '../../hooks/useFirestore'
+import React from 'react';
 
 export default function PrepForm({ uid }) {
     const [name, setName] = useState('')

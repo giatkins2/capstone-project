@@ -1,5 +1,6 @@
 import { useAuthContext } from '../../hooks/useAuthContext'
 import { useCollection } from '../../hooks/useCollection'
+import React from 'react';
 
 // styles
 import styles from './Home.module.css'
@@ -10,10 +11,10 @@ import ItemList from './ItemList'
 
 export default function Home() {
     const { user } = useAuthContext()
-    const { documents, error } =useCollection(
-        'items',
-        ["uid", "==", user.uid],
-        ["createdAt", "desc"]
+    const { documents, error } = useCollection(
+        'items', 
+        ["uid", "==", user.uid], 
+        ['createdAt', 'desc']
     )
 
     return(

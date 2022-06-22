@@ -19,16 +19,16 @@ export const useCollection = (collection, _query, _orderBy) => {
             ref = ref.orderBy(...orderBy)
         }
 
-        const unsubscribe = ref.onSnapshot((snapshot) => {
+        const unsubscribe = ref.onSnapshot(snapshot => {
             let results = []
             snapshot.docs.forEach(doc => {
                 results.push({ ...doc.data(), id: doc.id })
-            })
+            });
 
             //update state
             setDocuments(results)
             setError(null)
-        }, (error) => {
+        }, error => {
             console.log(error)
             setError('could not find your data')
         })
