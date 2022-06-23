@@ -35,11 +35,28 @@ ul {
   height: 500px;
 }
 
-.location-marker {
+/*location markers*/
+.fire-marker {
   font-size: 1.5rem;
   position: relative;
 }
 
+.ice-marker {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.volcano-marker {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.storm-marker {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+/*lodaer*/
 .loader-container {
   position: absolute;
   top: 0;
@@ -68,6 +85,7 @@ ul {
     transform: rotate(360deg);
   }
 }
+
 
 .location-info {
   position: absolute;

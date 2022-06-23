@@ -1,11 +1,11 @@
 import React from 'react';
 import {Icon} from '@iconify/react';
 import fireIcon from '@iconify/icons-emojione/fire';
-import volcanoIcon from '@iconify/icons-emojione/volcano';
-import stormIcon from '@iconify/icons-emojione/cloud-with-lightning-and-rain';
-import iceIcon from '@iconify/icons-emojione/snowflake';
+//import volcanoIcon from '@iconify/icons-emojione/volcano';
+//import stormIcon from '@iconify/icons-emojione/cloud-with-lightning-and-rain';
+//import iceIcon from '@iconify/icons-emojione/snowflake';
 
-function LocationMarker(lat, lng, onClick, id) {
+/*function LocationMarker(lat, lng, onClick, id) {
     let renderIcon = null;
     if(id === 8){
         renderIcon = fireIcon;
@@ -27,17 +27,16 @@ function LocationMarker(lat, lng, onClick, id) {
     );
 }
 
-export default LocationMarker
-/*import React from 'react'
-import {Icon} from '@iconify/react';
-import fireIcon from '@iconify/icons-emojione/fire';
+export default LocationMarker*/
+
+
 
 const LocationMarker = ({ lat, lng, onClick, id}) => {
     return (
-        <div className="location-marker" onClick={onClick}>
+        <div className="fire-marker" onClick={onClick}>
             <Icon icon={fireIcon} className="fire-icon" />
         </div>
     )
 }
 
-export default LocationMarker*/
+export default LocationMarker

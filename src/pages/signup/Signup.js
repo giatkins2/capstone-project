@@ -17,6 +17,8 @@ export default function Signup() {
     }
 
     return(
+        <>
+        <p className={styles.stitle}>Sign up to build, edit and view your emergency preparation list</p>
         <form onSubmit={handleSubmit} className={styles['signup-form']}>
             <h2>Signup</h2>
             <label>
@@ -47,5 +49,6 @@ export default function Signup() {
             {isPending && <button className="btn" disabled>loading</button>}
             {error && <p>{error}</p>}
         </form>
+        </>
     )
 }

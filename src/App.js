@@ -13,7 +13,7 @@ import Map from './components/Map';
 
 function App() {
   const { authIsReady, user } = useAuthContext();
-  const [eventData, setEventData, events]  = useState(false);
+  const [eventData, setEventData, events] = useState(false);
   
   //loader function
   const [loading, setLoading] = useState(false);
@@ -40,8 +40,9 @@ function App() {
     } 
     fetchEvents();
 requestOptions
-  }, [])*/
- useEffect(()=>{
+}, [])*/
+
+useEffect(()=>{
     var fetchEvents = {
       method: 'GET',
       redirect: 'follow'
@@ -55,7 +56,7 @@ requestOptions
       .catch(error => console.log('error', error));
     
       //extract events field from eonet api
-      //const events = response.json()
+      //const events = response.txt()
       
       //render map with markers;
       setEventData(eventData);
@@ -69,7 +70,6 @@ requestOptions
       {authIsReady && (
         <BrowserRouter>
           <Navbar/>
-        
           <Map />
           <Switch>
             <Route exact path="/">
@@ -85,7 +85,7 @@ requestOptions
               {!user && <Signup />}
             </Route>
           </Switch>
-          
+
         </BrowserRouter>
       )}
     </div>

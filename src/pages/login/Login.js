@@ -16,6 +16,8 @@ export default function Login() {
     }
 
     return(
+        <>
+        <p className={styles.ltitle}>Login to build, edit and view your emergency preparation list</p>
         <form onSubmit={handleSubmit} className={styles['login-form']}>
             <h2>Login</h2>
             <label>
@@ -37,6 +39,6 @@ export default function Login() {
             {!isPending && <button className="btn">Login</button>}
             {isPending && <button className="btn" disabled>Loading</button>}
             {error && <p>{error}</p>}
-        </form>
+        </form></>
     )
 }

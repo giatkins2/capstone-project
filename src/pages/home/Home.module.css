@@ -113,10 +113,22 @@
 
 .recommended {
         margin-top: 100px;
-        margin-left: 100px;
 }
 
 .rucksack {
         margin-top: 100px;
-        margin-right: 50px;
+}
+
+.htitle {
+        font-size: 1.7em;
+        padding-top: 50px;
+        text-align: center;
+        color: rgb(240, 134, 5)
+}
+
+.rtitle {
+        font-size: 1.7em;
+        padding-top: 50px;
+        text-align: center;
+        color: rgb(240, 134, 5)
 }

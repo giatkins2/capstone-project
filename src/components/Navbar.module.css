@@ -1,7 +1,7 @@
 /* Navabar styles */
 
 .navbar {
-    background: #1b1259;
+    background: linear-gradient(15deg, #13547a 0%, #1b1259 100%);
     padding: 20px, 10px;
     box-sizing: border-box;
 }
