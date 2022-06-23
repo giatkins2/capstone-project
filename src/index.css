@@ -16,16 +16,16 @@ ul {
 }
 .btn {
   background: none;
-  border: 2px solid #2a0262;
+  border: 2px solid #2798e4;
   padding: 6px 12px;
   border-radius: 4px;
-  color: #2a0262;
+  color: #2798e4;
   font-weight: bold;
   cursor: pointer;
   font-size: 0.7em;
 }
 .btn:hover {
-  background: #2a0262;
+  background: #2798e4;
   color: #fff;
 }
 

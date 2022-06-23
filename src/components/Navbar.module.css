@@ -1,7 +1,7 @@
 /* Navabar styles */
 
 .navbar {
-    background: #ee732c;
+    background: #1b1259;
     padding: 20px, 10px;
     box-sizing: border-box;
 }
@@ -12,6 +12,7 @@
     max-width: 960px;
     min-height: 75px;
     align-items: center;
+    color: rgb(240, 244, 244);
 }
 
 .title {
@@ -30,4 +31,5 @@
     color: rgb(240, 244, 244);
     direction: none;
     font-size: 0.8em;
+    text-decoration: none;
 }

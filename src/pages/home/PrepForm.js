@@ -38,7 +38,7 @@ export default function PrepForm({ uid }) {
                     />
                 </label>
                 <label>
-                    <span>Amount:</span>
+                    <span>Number:</span>
                     <input
                         type="number"
                         required

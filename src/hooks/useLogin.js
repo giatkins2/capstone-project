@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { projectAuth } from '../firebase/config'
+import { projectAuth } from '../firebase/Config'
 import { useAuthContext } from './useAuthContext'
 
 export const useLogin = () => {

@@ -13,6 +13,7 @@ export default function Navbar() {
     return(
         <nav className={styles.navbar}>
             <ul>
+                <li><img src="https://img.icons8.com/fluency/344/chance-of-storm.png" width="45" height="45"></img></li>
                 <li className={styles.title}>ClimatePrep</li>
 
                 {!user && (

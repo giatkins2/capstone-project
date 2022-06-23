@@ -15,7 +15,7 @@
 
 .sidebar form {
         padding: 20px;
-        background: #2798e4;
+        background: #dadcdd;
         border-radius: 2px;
 }
 
@@ -27,7 +27,7 @@
         box-sizing: border-box;
         border: 0;
         border-radius: 4px;
-        color: #555;
+        color: rgb(172, 171, 171);
         font-size: 1em;
 }
 
@@ -38,8 +38,8 @@
 }
 
 .sidebar button {
-        color: #fff;
-        border: 2px solid #fff;
+        color: #2798e4;
+        border: 2px solid #2798e4;
         padding: 6px 12px;
         background-color: transparent;
         font-size: 1em;
@@ -49,14 +49,14 @@
         width: 100%;
 }
 
-.sidebar h3 {
+.sidebar h4 {
         color: #2798e4;
         margin-bottom: 20px;
 }
 
 .sidebar aside {
         margin-top: 40px;
-        color: #555;
+        color: rgb(200, 199, 199);
 }
 
 .sidebar aside li {
@@ -65,10 +65,10 @@
 
 /* transactions */
 .items li {
-        margin: 30px auto;
+        margin: 10px auto;
         border: 1px solid #f2f2f2;
         box-shadow: 3px 3px 5px rgba(50,50,50,0.1);
-        padding: 10px;
+        padding: 7px;
         display: flex;
         align-items: center;
         position: relative;
@@ -92,12 +92,31 @@
         position: absolute;
         top: 0;
         right:0;
-        background: #ddd;
-        color: #777;
+        background: #acb5ba;
+        color: whitesmoke;
         border: none;
         padding: 12px 8px;
         text-align: center;
         line-height: 0;
         font-size: 0.9em;
         cursor: pointer;
+}
+
+.list {
+        list-style: none;
+}
+
+.list li:before {
+        content: "👉";
+        margin: 0 16px 0 0;
+}
+
+.recommended {
+        margin-top: 100px;
+        margin-left: 100px;
+}
+
+.rucksack {
+        margin-top: 100px;
+        margin-right: 50px;
 }

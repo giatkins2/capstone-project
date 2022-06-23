@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 
 const LocationInfoBox = ({ info }) => {
     return (
@@ -12,4 +12,4 @@ const LocationInfoBox = ({ info }) => {
     );
 }
 
-export default LocationInfoBox;
+export default LocationInfoBox;*/
